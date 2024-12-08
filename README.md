@@ -6,9 +6,9 @@
 
 const double PI {3.1415926535897932384626433832795};
 
-    #include <iostream>: This allows us to use input/output functions like std::cout for printing to the console.
+#include <iostream>: This allows us to use input/output functions like std::cout for printing to the console.
     
-    PI: A constant value for π (pi), used to calculate the volume of the cylinder.
+PI: A constant value for π (pi), used to calculate the volume of the cylinder.
 
 2. The Cylinder Class
 
