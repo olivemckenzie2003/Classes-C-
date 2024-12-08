@@ -2,8 +2,6 @@
 
 1. Includes and Constants
 
-
-
 const double PI {3.1415926535897932384626433832795};
 
 This allows us to use input/output functions like std::cout for printing to the console.
