@@ -6,7 +6,9 @@
 
 const double PI {3.1415926535897932384626433832795};
 
-#include <iostream>: This allows us to use input/output functions like std::cout for printing to the console.
+This allows us to use input/output functions like std::cout for printing to the console.
+
+#include <iostream>: 
     
 PI: A constant value for π (pi), used to calculate the volume of the cylinder.
 
@@ -27,9 +29,15 @@ public:
         
     }
 
-    Default Constructor: Cylinder() = default; creates a cylinder object with default values for base_radius and height (set to 1 in the private section).
+    Creates a cylinder object with default values for base_radius and height (set to 1 in the private section).
     
-    Parameterized Constructor: Cylinder(double rad_param, double height_param) initializes the cylinder with specific values for base_radius and height.
+    Default Constructor: Cylinder() = default; 
+
+    Initializes the cylinder with specific values for base_radius and height.
+    
+    Parameterized Constructor: Cylinder(double rad_param, double height_param) 
+
+Purpose: Calculates and returns the volume of the cylinder using the formula:
 
 b. Volume Calculation
 
@@ -38,11 +46,6 @@ double volume() {
     return PI * base_radius * base_radius * height;
 }
 
-    Purpose: Calculates and returns the volume of the cylinder using the formula:
-
-Volume=π⋅(radius)2⋅height
-
-Volume=π⋅(radius)2⋅height
 
 c. Setter and Getter Methods
 
@@ -82,13 +85,14 @@ d. Private Members
 
 private:
 
-    double base_radius{1};
-    
-    double height{1};
+base_radius and height: Represent the cylinder's radius and height, respectively.
 
-    base_radius and height: Represent the cylinder's radius and height, respectively.
+Default Values: Both are initialized to 1.
+
+double base_radius{1};
     
-    Default Values: Both are initialized to 1.
+double height{1};
+
 
 3. Main Function
 
@@ -116,13 +120,7 @@ cylinder1.set_height(10);
 
 std::cout << "volume : " << cylinder1.volume() << std::endl;
 
-    Setters modify the base_radius to 100 and the height to 10.
-    
-    New Volume:
-
-Volume=π⋅1002⋅10=314159.27
-
-Volume=π⋅1002⋅10=314159.27
+Setters modify the base_radius to 100 and the height to 10.
 
 4. Key Features Demonstrated
 
