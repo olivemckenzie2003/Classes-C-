@@ -104,13 +104,9 @@ Cylinder cylinder1(10,10);
 
 std::cout << "volume : " << cylinder1.volume() << std::endl;
 
-    A Cylinder object (cylinder1) is created with a radius of 10 and a height of 10.
+A Cylinder object (cylinder1) is created with a radius of 10 and a height of 10.
     
-    The volume() method calculates and prints the volume:
-
-Volume=π⋅102⋅10=3141.59
-
-Volume=π⋅102⋅10=3141.59
+The volume() method calculates and prints the volume:
 
 b. Modify the Cylinder
 
@@ -124,21 +120,21 @@ Setters modify the base_radius to 100 and the height to 10.
 
 4. Key Features Demonstrated
 
-    Encapsulation:
+Encapsulation:
    
-        Member variables (base_radius and height) are private.
+Member variables (base_radius and height) are private.
    
-        Getters and setters allow controlled access and modification.
+Getters and setters allow controlled access and modification.
    
-    Constructors:
+Constructors:
    
-        A default constructor (= default) provides initial values.
+A default constructor (= default) provides initial values.
    
-        A parameterized constructor allows custom initialization.
+A parameterized constructor allows custom initialization.
    
-    Object-Oriented Programming:
+Object-Oriented Programming:
    
-        Methods (volume, get_, set_) and data are encapsulated within the Cylinder class.
+Methods (volume, get_, set_) and data are encapsulated within the Cylinder class.
 
 6. Output
 
